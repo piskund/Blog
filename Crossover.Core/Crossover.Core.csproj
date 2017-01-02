@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C1BD77C5-DE93-4DA4-9654-04A31E7CD6E2}</ProjectGuid>
+    <ProjectGuid>{58BB05CB-01CC-409C-AB1E-6DB646B89FB9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Crossover.Common</RootNamespace>
-    <AssemblyName>Crossover.Common</AssemblyName>
+    <RootNamespace>Crossover.Core</RootNamespace>
+    <AssemblyName>Crossover.Core</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,12 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstractions\IComment.cs" />
-    <Compile Include="Abstractions\IPost.cs" />
+    <Compile Include="Abstractions\IPostRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Entities\" />
+    <ProjectReference Include="..\Crossover.Common\Crossover.Common.csproj">
+      <Project>{c1bd77c5-de93-4da4-9654-04a31e7cd6e2}</Project>
+      <Name>Crossover.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

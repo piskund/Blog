@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crossover.DAL", "Crossover.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crossover.Common", "Crossover.Common\Crossover.Common.csproj", "{C1BD77C5-DE93-4DA4-9654-04A31E7CD6E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crossover.WPF.Client", "Crossover.WPF.Client\Crossover.WPF.Client.csproj", "{F17FD316-9052-400D-9E8F-B90A71F6F26B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crossover.Core", "Crossover.Core\Crossover.Core.csproj", "{58BB05CB-01CC-409C-AB1E-6DB646B89FB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{C1BD77C5-DE93-4DA4-9654-04A31E7CD6E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1BD77C5-DE93-4DA4-9654-04A31E7CD6E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1BD77C5-DE93-4DA4-9654-04A31E7CD6E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F17FD316-9052-400D-9E8F-B90A71F6F26B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17FD316-9052-400D-9E8F-B90A71F6F26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17FD316-9052-400D-9E8F-B90A71F6F26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17FD316-9052-400D-9E8F-B90A71F6F26B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58BB05CB-01CC-409C-AB1E-6DB646B89FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58BB05CB-01CC-409C-AB1E-6DB646B89FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58BB05CB-01CC-409C-AB1E-6DB646B89FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58BB05CB-01CC-409C-AB1E-6DB646B89FB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

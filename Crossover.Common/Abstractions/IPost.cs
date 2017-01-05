@@ -4,7 +4,7 @@ namespace Crossover.Common.Abstractions
 {
     public interface IPost
     {
-        int Id { get; set; }
+        Guid Id { get; set; }
 
         DateTime Date { get; set; }
 

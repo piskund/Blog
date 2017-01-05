@@ -6,13 +6,13 @@ using System.Web.Http;
 using Crossover.Common.Abstractions;
 using Crossover.Core.Abstractions;
 
-namespace Crossover.WebAPI.Services.Controllers
+namespace Crossover.WebApi.Selfhosting.Controllers
 {
-    public class BlogPostController : ApiController
+    public class BlogPostsController : ApiController
     {
         private readonly IPostRepository _repository;
 
-        public BlogPostController(IPostRepository repository)
+        public BlogPostsController(IPostRepository repository)
         {
             _repository = repository;
         }

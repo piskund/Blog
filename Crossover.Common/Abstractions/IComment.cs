@@ -1,10 +1,12 @@
-﻿namespace Crossover.Common.Abstractions
+﻿using System;
+
+namespace Crossover.Common.Abstractions
 {
     public interface IComment
     {
-        int Id { get; set; }
+        Guid Id { get; set; }
 
-        int PostId { get; set; }
+        Guid PostId { get; set; }
 
         string Text { get; set; }
     }
